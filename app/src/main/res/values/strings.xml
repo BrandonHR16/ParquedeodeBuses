@@ -10,6 +10,8 @@
     <string name="vermapa">Ver lugar en el mapa</string>
     <string name="numeroE">Numero de estacionamiento</string>
     <string name="Servicio_tecnico">Servicio tecnico</string>
+    <string name="Nombre">Nombre</string>
+    <string name="retirar">Retirar Bus</string>
 
 
     <string-array name="tiposE">

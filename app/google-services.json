@@ -14,6 +14,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "265649259141-rkgftdhkv61no8hk3uckrc39qbd8u2fq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.parqueodebuses",
+            "certificate_hash": "2b5eed383c8a50a7ea5f2aa3d2638cdc87bb074a"
+          }
+        },
+        {
           "client_id": "265649259141-sime9mpoi4reiugb2au316mhsg7v1g8r.apps.googleusercontent.com",
           "client_type": 3
         }
