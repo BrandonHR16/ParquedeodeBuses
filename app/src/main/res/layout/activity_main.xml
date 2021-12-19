@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="177dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="148dp"
+        android:text="Retirar Bus"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnLlamar"
+        android:layout_width="191dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginBottom="64dp"
+        android:text="@string/Servicio_tecnico"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/Ebus"
+        android:layout_width="159dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="148dp"
+        android:text="@string/Estacionar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.705"
+        app:layout_constraintStart_toEndOf="@+id/button" />
+
+    <TextView
+        android:id="@+id/NombreCon"
+        android:layout_width="230dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="104dp"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="50px"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Cedula"
+        android:layout_width="148dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="52dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/NombreCon" />
+
+    <TextView
+        android:id="@+id/Ruta"
+        android:layout_width="148dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="32dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Cedula" />
+
+    <TextView
+        android:id="@+id/Ingreso"
+        android:layout_width="96dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="32dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Pcarrera"
+        android:layout_width="96dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginEnd="32dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

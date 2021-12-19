@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Parqueo de Buses</string>
+    <string name="Iniciarsesion">Iniciar sesion</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="ErrorLogIn">Verifique ingresara las credenciales</string>
+    <string name="Estacionar">Estacionar Bus</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tipo">Tipo estacionamiento</string>
+    <string name="vermapa">Ver lugar en el mapa</string>
+    <string name="numeroE">Numero de estacionamiento</string>
+    <string name="Servicio_tecnico">Servicio tecnico</string>
+
+
+    <string-array name="tiposE">
+        <item>Transicion</item>
+        <item>Final</item>
+    </string-array>
+
+</resources>

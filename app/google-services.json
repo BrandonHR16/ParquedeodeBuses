@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "265649259141",
+    "project_id": "estacionamientobuses",
+    "storage_bucket": "estacionamientobuses.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:265649259141:android:ed9d3c16ce24b32bae5fec",
+        "android_client_info": {
+          "package_name": "com.example.parqueodebuses"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "265649259141-sime9mpoi4reiugb2au316mhsg7v1g8r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZ0mRxxRxzWxFIpqZ3tZU6pv6Tw9taaVs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "265649259141-sime9mpoi4reiugb2au316mhsg7v1g8r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
